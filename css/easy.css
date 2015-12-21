@@ -1,0 +1,93 @@
+/*General*/
+
+body, html {
+  font-size:      small;
+  color:          #222;
+  min-width:      860px
+  margin:         0px;
+}
+body, td, a, p, .h{
+  font-family:    arial, sans-serif;
+}
+ul li a {
+  text-decoration:none;
+  padding:        50px 0px 0px 0px;
+  color:          #666;;
+}
+ul li a:hover {
+  text-decoration:underline;
+}
+li {
+    display:      inline;
+}
+li img{
+  vertical-align: middle;
+}
+input:hover {
+  border-color:   grey;
+}
+
+/*Top Navigation*/
+
+#topbar{
+  text-align:     right;
+  padding:        15px 14px 151px 0px;
+}
+#topbar ul li{
+    padding:      0px 15px 10px 0px;
+}
+
+/*Google Search*/
+
+#logo{
+  padding-bottom: 18px;
+}
+#gInput{
+  height:         36px; 
+  width:          484px;
+  border:         1px solid #e4e4e4;
+  margin-bottom:  30px;
+}
+.gSearch, .gLucky{
+  height:         38px;
+  padding:        10px 18px 10px 18px;
+  background-color: #f2f2f2;
+  border:         solid;
+  border-width:   1px;
+  border-color:   white;
+  font-weight:    bold;
+  font-family:    arial, sans-serif;
+}
+.gSearch{
+   width:         134px;
+}
+.gLucky{
+  width:          143px;
+}
+
+/*Footer*/
+
+footer{
+  border-top:     1px solid #e4e4e4;
+  line-height:    40px;
+  min-width:      800px;
+  height:         40px;
+  position:       absolute;
+  bottom:         0px;
+  width:          100%;
+  background:     #f2f2f2;
+  border-collapse:collapse;
+}
+div.f-left{
+  float:           left;
+  text-align:      left;
+  padding-left:    25px;
+}
+div.f-right{
+  float:            right;
+  text-align:       right;
+  padding-right:    8px;
+}
+.f-left ul li a, .f-right ul li a{
+  padding:          5px 22px 0px 5px;
+}
